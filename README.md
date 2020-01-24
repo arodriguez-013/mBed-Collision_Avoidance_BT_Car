@@ -122,3 +122,5 @@ Use [this](https://os.mbed.com/users/edodm85/code/HC05_AT_mode/) code to send AT
 
 ## Authors:
 This project was designed and prototyped by both myself (Andres Rodriguez) and David Prina as our final project for Embedded Systems Design.
+
+###### This repository is a mirror of the original mBed notebook page I made as part of this project, see the original mBed notebook page [here](https://os.mbed.com/users/Andres013/notebook/collision-avoidance-robot-with-bluetooth-controlle/)
