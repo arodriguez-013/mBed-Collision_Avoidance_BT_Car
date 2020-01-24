@@ -82,20 +82,20 @@ Used to move the robot.
 
 	| DC Motor | H-Bridge Driver | mBed |
 	|--|--|--|
-	|+ (Left)|  A01 | x |
-	|- (Left)| A02 | x |
-	|+ (Right)|  B01 | x |
-	|- (Right)| B02 | x |
-	| x | PWMA| p21|
-	| x | PWMB|p22|
-	| x | AIN1| p15|
-	| x | AIN2 | p16|
-	| x | BIN1 | p17 |
-	| x | BIN2 | p19 |
-	| x | GND (ALL 3 ) | GND |
-	| x | VCC | Vout (+3.3v) |
-	| x | STBY | Vout (+3.3v) |
-	| x | VM | +5v (Battery Pack) |
+	|+ (Left)|  A01 |  |
+	|- (Left)| A02 |  |
+	|+ (Right)|  B01 |  |
+	|- (Right)| B02 |  |
+	|  | PWMA| p21|
+	|  | PWMB|p22|
+	|  | AIN1| p15|
+	|  | AIN2 | p16|
+	|  | BIN1 | p17 |
+	|  | BIN2 | p19 |
+	|  | GND (ALL 3 ) | GND |
+	|  | VCC | Vout (+3.3v) |
+	|  | STBY | Vout (+3.3v) |
+	|  | VM | +5v (Battery Pack) |
 
 * **HC-SR04 Ultrasonic Sensor:**
 The Ultrasonic Sensor is used to control the collision avoidance protocol and to read in radar data to be sent back to the controller over Bluetooth.
@@ -111,9 +111,9 @@ The Ultrasonic Sensor is used to control the collision avoidance protocol and to
 
 	| Ambient Light Sensor | mBed | Headlights (LEDs) |
 	|--|--|--|
-	| Vcc | Vout (+3.3v)| x | 
+	| Vcc | Vout (+3.3v)|  | 
 	|GND| GND| -|
-	| Sig| p20| x |
+	| Sig| p20|  |
 	| | p30| + |
 
 # Setting up the HC-05's
