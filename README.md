@@ -58,6 +58,7 @@ The LCD screen is used to draw the radar view of the robots surroundings upon en
 
 * **Analog Joystick:**
 The joystick contains two potentiometers which are used to control the robots movements.
+	
 	| mBed | Joystick |
 	|-----|-----------|
 	|p15|Vert|
